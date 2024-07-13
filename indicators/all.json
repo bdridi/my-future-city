@@ -1,0 +1,258 @@
+[ 
+  {
+    "code": "prixm2",
+    "name": "Prix immobilier au m2",
+    "description": "Prix immobilier au m2",
+    "year": 2021,
+    "nationalReference": "Prix moyen: 1781,44 Prix median : 1581,24€", 
+    "formula": "",
+    "order": "DESC",
+    "scales" : [
+      {
+        "name": "A",
+        "startValue": 0,
+        "stopValue": 1500
+      },
+      {
+        "name": "B",
+        "startValue": 1500.1,
+        "stopValue": 2000
+      },
+      {
+        "name": "C",
+        "startValue": 2000.1,
+        "stopValue": 2800 
+      },
+      {
+        "name": "D",
+        "startValue": 2800.1,
+        "stopValue": 6500
+      },
+      {
+        "name": "E",
+        "startValue": 6500.1,
+        "stopValue": 12000
+      }
+    ]
+  },
+  {
+    "code": "partMaisons",
+    "name": "Part des maisons dans le nombre total de logements",
+    "description": "Part des maisons dans le nombre total de logements",
+    "year": 2020,
+    "nationalReference": "55.2%", 
+    "formula": "Rapport du nombre de maisons sur le nombre total de logement",
+    "order": "ASC",
+    "scales" : [
+      {
+        "name": "A",
+        "startValue": 93,
+        "stopValue": 100
+      },
+      {
+        "name": "B",
+        "startValue": 81.8,
+        "stopValue": 92.9
+      },
+      {
+        "name": "C",
+        "startValue": 63.6,
+        "stopValue": 81.7 
+      },
+      {
+        "name": "D",
+        "startValue": 39,
+        "stopValue": 63.5
+      },
+      {
+        "name": "E",
+        "startValue": 0.8,
+        "stopValue": 38.9
+      }
+    ]
+  },
+  {
+    "code": "violSex",
+    "name": "Violences sexuelles ( taux )",
+    "description": "Les données relatives aux violences sexuelles issues des procédures enregistrées par les forces de sécurité comprennent les viols, tentatives de viols et les agressions sexuelles y compris le harcèlement sexuel. Elles comptabilisent les victimes majeures comme les victimes mineures.L'indicateur rapporte le nombre de victimes à la population totale. Il est exprimé pour 1 000 habitants.",
+    "year": 2022,
+    "nationalReference": "1.3 victimes pour 1000 habitants", 
+    "formula": "Nombre de victimes pour 1000 habitans",
+    "order": "DESC",
+    "scales" : [
+      {
+        "name": "A",
+        "startValue": 0,
+        "stopValue": 0.3
+      },
+      {
+        "name": "B",
+        "startValue": 0.4,
+        "stopValue": 1
+      },
+      {
+        "name": "C",
+        "startValue": 1.1,
+        "stopValue": 1.6 
+      },
+      {
+        "name": "D",
+        "startValue": 1.7,
+        "stopValue": 2.3
+      },
+      {
+        "name": "E",
+        "startValue": 2.4,
+        "stopValue": 15.4
+      }
+    ]
+  },
+  {
+    "code": "partLogSurOccup",
+    "name": "Part des logements en situation de sur-occupation",
+    "source": "Service statistique ministériel de la sécurité intérieure - Base statistique communale de la délinquance enregistrée par la police et la gendarmerie nationales",
+    "description": "La définition de la sur-occupation repose sur la composition du ménage et le nombre de pièces du logement. Un logement est sur-occupé quand il lui manque au moins une pièce par rapport à la norme d' « occupation normale », fondée sur le nombre de pièces nécessaires au ménage.",
+    "year": 2019,
+    "nationalReference": "9,7%", 
+    "formula": "Pourcentage",
+    "order": "DESC",
+    "scales" : [
+      {
+        "name": "A",
+        "startValue": 0,
+        "stopValue": 1.3
+      },
+      {
+        "name": "B",
+        "startValue": 1.4,
+        "stopValue": 4.2
+      },
+      {
+        "name": "C",
+        "startValue": 4.3,
+        "stopValue": 8.4 
+      },
+      {
+        "name": "D",
+        "startValue": 8.5,
+        "stopValue": 15.4
+      },
+      {
+        "name": "E",
+        "startValue": 15.5,
+        "stopValue": 100
+      }
+    ]
+  },
+  {
+    "code": "trafficStup",
+    "name": "Trafic de stupéfiants (taux)",
+    "source": "Service statistique ministériel de la sécurité intérieure - Base statistique communale de la délinquance enregistrée par la police et la gendarmerie nationales",
+    "description": "Cet indicateur correspond au nombre de personnes mises en cause pour des infractions d'importation et exportation, culture, production illicite de stupéfiants ainsi que les infractions douanières liées aux stupéfiants (section 06.A.2 de la Nomenclature française des infractions) sauf les infractions de détention, transport et acquisition non autorisés de stupéfiants indexées en 'Usage de stupéfiants' (57) par les forces de l'ordre.",
+    "year": 2022,
+    "nationalReference": "0,7 mis en cause pour 1 000 habitants", 
+    "formula": "Nombre de mis en cause pour 1 000 habitants",
+    "order": "DESC",
+    "scales" : [
+      {
+        "name": "A",
+        "startValue": 0,
+        "stopValue": 0.2
+      },
+      {
+        "name": "B",
+        "startValue": 0.3,
+        "stopValue": 0.9 
+      },
+      {
+        "name": "C",
+        "startValue": 1,
+        "stopValue": 1.6 
+      },
+      {
+        "name": "D",
+        "startValue": 1.7,
+        "stopValue": 2.6
+      },
+      {
+        "name": "E",
+        "startValue": 2.7,
+        "stopValue": 106
+      }
+    ]
+  },
+  {
+    "code": "partHlmResPrincipal",
+    "name": "Part des locataires HLM dans les résidences principales",
+    "source": "Insee, Recensement de la population (RP), exploitation principale",
+    "description": "Rapport du nombre de locataires HLM sur le nombre total de résidences principales",
+    "formula": "Rapport du nombre de locataires HLM sur le nombre total de résidences principales",
+    "year": 2020,
+    "nationalReference": 14.7, 
+    "order": "DESC",
+    "scales" : [
+      {
+        "name": "A",
+        "startValue": 0,
+        "stopValue": 2.2
+      },
+      {
+        "name": "B",
+        "startValue": 2.3,
+        "stopValue": 7.1 
+      },
+      {
+        "name": "C",
+        "startValue": 7.2,
+        "stopValue": 14 
+      },
+      {
+        "name": "D",
+        "startValue": 14.1,
+        "stopValue": 24.6
+      },
+      {
+        "name": "E",
+        "startValue": 24.7,
+        "stopValue": 65.3
+      }
+    ]
+  },
+  {
+    "code": "cambriolageLogement",
+    "name": "Cambriolages de logement (taux)",
+    "source": "Service statistique ministériel de la sécurité intérieure - Base statistique communale de la délinquance enregistrée par la police et la gendarmerie nationales",
+    "description": "Cet indicateur additionne les cambriolages de résidences principales et les cambriolages de résidences secondaires, car ces deux types d’infractions relèvent des mêmes modes opératoires.",
+    "formula": "L'indicateur rapporte le nombre d'infractions au nombre total de logements. Il est exprimé pour 1 000 logements.",
+    "year": 2022,
+    "nationalReference": 6.7, 
+    "order": "DESC",
+    "scales" : [
+      {
+        "name": "A",
+        "startValue": 0,
+        "stopValue": 1.8
+      },
+      {
+        "name": "B",
+        "startValue": 1.9,
+        "stopValue": 5.3
+      },
+      {
+        "name": "C",
+        "startValue": 5.4,
+        "stopValue": 8.9 
+      },
+      {
+        "name": "D",
+        "startValue": 9,
+        "stopValue": 13.7
+      },
+      {
+        "name": "E",
+        "startValue": 13.8,
+        "stopValue": 61.9
+      }
+    ]
+    }
+]
